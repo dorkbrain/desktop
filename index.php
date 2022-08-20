@@ -6,7 +6,7 @@ header("Pragma: no-cache");
 ?>
 <html>
   <head>
-    <title>Dorkbrain Desktop</title>
+    <title>My Desktop</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <base target="_blank">
     <link rel="icon" type="image/png" href="./desktop-icon.png" />
