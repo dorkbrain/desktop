@@ -1,0 +1,18 @@
+[
+  { "name": "Emby",         "icon": "icons/emby.png",           "url": "http://app.emby.media/" }, 
+  { "name": "EmbyStat",     "icon": "icons/embystat.png",       "url": "http://emby.dorkbrain.net:6555/" }, 
+  { "name": "Plex",         "icon": "icons/plex.png",           "url": "https://app.plex.tv/web/app" }, 
+  { "name": "REstream",     "icon": "icons/live.png",           "url": "https://restream.portal.dorkbrain.net/" }, 
+  { "name": "Proxmox",      "icon": "icons/proxmox.svg",        "url": "https://zero.dorkbrain.net:8006/" }, 
+  { "name": "OMV: Pandora", "icon": "icons/openmediavault.svg", "url": "http://pandora.dorkbrain.net/" }, 
+  { "name": "LibreNMS",     "icon": "icons/librenms.png",       "url": "https://libre.portal.dorkbrain.net/" }, 
+  { "name": "OpenVPN AS",   "icon": "icons/openvpn.jpg",        "url": "https://vpn.dorkbrain.net:943/admin/status_overview" }, 
+  { "name": "Checkpoint",   "icon": "icons/checkpoint.png",     "url": "https://firewall.portal.dorkbrain.net/" }, 
+  { "name": "Omada",        "icon": "icons/wifi.png",           "url": "https://omada.portal.dorkbrain.net/" }, 
+  { "name": "Cloudflare",   "icon": "icons/cloudflare.svg",     "url": "https://dash.cloudflare.com/" }, 
+  { "name": "OpenDNS",      "icon": "icons/opendns.png",        "url": "https://dashboard.opendns.com/" }, 
+  { "name": "GitHub",       "icon": "icons/github.png",         "url": "https://github.com/dorkbrain?tab=repositories" }, 
+  { "name": "Fi Messages",  "icon": "icons/sms.jpg",            "url": "https://messages.google.com/web" }, 
+  { "name": "ILO: Pandora", "icon": "icons/hp.png",             "url": "https://pandora.ilo.dorkbrain.net/" }, 
+  { "name": "ILO: Zero",    "icon": "icons/hp.png",             "url": "https://zero-ilo.portal.dorkbrain.net/" }
+]
