@@ -1,5 +1,5 @@
 # desktop
 My html/php speed-dial that mimics a computer desktop
 
-## Preview
+### Preview
 ![preview](preview/preview.png)
