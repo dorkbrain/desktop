@@ -23,6 +23,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(var(--cell-size), var(--cell-size)));
   height: var(--display-height);
   width: var(--display-width);
+  max-height: 100%;
 }
 .grid-item {
   text-align: center;
