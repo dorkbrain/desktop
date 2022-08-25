@@ -8,42 +8,21 @@
   <head>
     <title>My Desktop</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
     <base target="_blank">
     <link rel="icon" type="image/png" href="./desktop-icon.png" />
     <style>
-      body {
-        background-image: url("wallpaper/GLaDOS - For Science.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-        background-color: black;
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: small;
-        text-decoration: none;
-      }
-      .grid-container {
-        display: inline-grid;
-        grid-template-columns: 80px 80px 80px;
-        column-gap: 20px;
-        row-gap: 20px;
-        height: 100%;
-      }
-      .grid-item {
-        text-align: center;
-      }
-      .icon {
-        width: 48px;
-        height: 48px;
-        cursor: pointer;
-      }
-      .icon-text {
-        color: white;
-        cursor: pointer;
+      :root {
+        --icon-size: 48px;
+        --cell-size: 80px;
+        --display-height: 80vh;
+        --display-width: 100vw;
+        --wallpaper: url("wallpaper/GLaDOS - For Science.jpg");
       }
     </style>
+    <link rel="stylesheet" href="./index.css">
   </head>
+  
   <body>
     <div class="grid-container">
 <?php
@@ -57,11 +36,6 @@
 ?>
     </div>
 
-    <script>
-      $('.icon, .icon-text').click(event => {
-        dest = $(event.target).parent()[0].dataset.url;
-        window.open(dest, "_blank");        
-      });
-    </script>
+    <script>attachEvents();</script>
   </body>
 </html>

@@ -1,0 +1,36 @@
+body {
+  background-image: var(--wallpaper);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+.grid-container {
+  overflow: hidden;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  grid-template-rows: repeat(auto-fit, minmax(var(--cell-size), var(--cell-size)));
+  grid-template-columns: repeat(auto-fit, minmax(var(--cell-size), var(--cell-size)));
+  height: var(--display-height);
+  width: var(--display-width);
+}
+.grid-item {
+  text-align: center;
+}
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  cursor: pointer;
+}
+.icon-text {
+  color: white;
+  cursor: pointer;
+}
