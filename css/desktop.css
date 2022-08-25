@@ -11,6 +11,8 @@ body {
   text-decoration: none;
   margin: 0px;
   padding: 0px;
+  position: fixed;
+  height: 100%;
 }
 .grid-container {
   overflow: hidden;

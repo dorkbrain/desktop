@@ -8,19 +8,19 @@
   <head>
     <title>My Desktop</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="js/desktop.js"></script>
     <base target="_blank">
-    <link rel="icon" type="image/png" href="./desktop-icon.png" />
+    <link rel="icon" type="image/png" href="desktop-icon.png" />
     <style>
       :root {
         --icon-size: 48px;
         --cell-size: 80px;
         --display-height: 80vh;
         --display-width: 100vw;
-        --wallpaper: url("wallpaper/GLaDOS - For Science.jpg");
+        --wallpaper: url("../wallpaper/glados.jpg");
       }
     </style>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="css/desktop.css">
   </head>
   
   <body>
