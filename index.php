@@ -15,8 +15,8 @@
       :root {
         --icon-size: 48px;
         --cell-size: 80px;
-        --display-height: 80vh;
-        --display-width: 100vw;
+        --display-height: 80%;
+        --display-width: 100%;
         --wallpaper: url("../wallpaper/glados.jpg");
       }
     </style>
