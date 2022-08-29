@@ -12,6 +12,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 .grid-container {
   overflow: hidden;
   display: inline-grid;

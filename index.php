@@ -3,6 +3,7 @@
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
   header("Pragma: no-cache");
+  $json = json_decode(file_get_contents("links.json"), true);
 ?>
 <html>
   <head>
@@ -25,15 +26,12 @@
   
   <body>
     <div class="grid-container">
-<?php
-  $json = json_decode(file_get_contents("links.json"), true);
-  foreach($json as $item) {
-    print "      <div class='grid-item' data-url='{$item["url"]}'>\n";
-    print "        <img class='icon' src='{$item["icon"]}'/><br />\n";
-    print "        <div class='icon-text'>{$item["name"]}</div>\n";
-    print "      </div>\n";
-  }
-?>
+<?php foreach($json as $item): ?>
+      <div class='grid-item' data-url='<?= $item["url"]; ?>'>
+        <img class='icon' src='<?= $item["icon"]; ?>'/><br />
+        <div class='icon-text'><?= $item["name"]; ?></div>
+      </div>
+<?php endforeach; ?>
     </div>
 
     <script>attachEvents();</script>
